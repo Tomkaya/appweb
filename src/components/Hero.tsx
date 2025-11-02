@@ -37,25 +37,6 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="hero-visual">
-            <div className="phone-mockup">
-              <div className="phone-screen">
-                <div className="app-preview">
-                  <div className="preview-header"></div>
-                  <div className="preview-content">
-                    <div className="preview-card"></div>
-                    <div className="preview-card"></div>
-                    <div className="preview-card"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="floating-elements">
-              <div className="float-element element-1">💡</div>
-              <div className="float-element element-2">🚀</div>
-              <div className="float-element element-3">⚡</div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
