@@ -31,7 +31,6 @@ const Contact = () => {
 
   const contactInfo = [
     { icon: '📧', label: 'Email', value: 'info@casifoapp.com' },
-    { icon: '📱', label: 'Phone', value: '+90 532 333 33 33' },
   ]
 
   return (
@@ -90,29 +89,6 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   placeholder="example@email.com"
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="phone">Your Phone Number</label>
-                <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  value={formData.phone}
-                  onChange={handleChange}
-                  placeholder="+90 (555) 123 45 67"
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="message">Your Message</label>
-                <textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  required
-                  rows={5}
-                  placeholder="Tell us about your project..."
                 />
               </div>
               <button type="submit" className="submit-btn">
