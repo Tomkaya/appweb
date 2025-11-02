@@ -185,22 +185,15 @@
 }
 
 .feature-card-small {
-  background: rgba(255, 255, 255, 0.9);
-  backdrop-filter: blur(10px);
-  border-radius: 20px;
-  padding: 1.5rem 2rem;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
   gap: 1rem;
   transition: all 0.3s ease;
   animation: slideIn 0.6s ease-out;
-  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .feature-card-small:hover {
-  transform: translateX(-10px) scale(1.05);
-  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.15);
+  transform: translateX(-10px) scale(1.08);
 }
 
 .card-1 {
