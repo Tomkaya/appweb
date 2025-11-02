@@ -37,6 +37,28 @@ const Hero = () => {
               </div>
             </div>
           </div>
+          <div className="hero-visual">
+            <div className="animated-shapes">
+              <div className="shape shape-1"></div>
+              <div className="shape shape-2"></div>
+              <div className="shape shape-3"></div>
+              <div className="shape shape-4"></div>
+            </div>
+            <div className="feature-cards">
+              <div className="feature-card-small card-1">
+                <div className="card-icon">⚡</div>
+                <div className="card-text">Fast</div>
+              </div>
+              <div className="feature-card-small card-2">
+                <div className="card-icon">🔒</div>
+                <div className="card-text">Secure</div>
+              </div>
+              <div className="feature-card-small card-3">
+                <div className="card-icon">🚀</div>
+                <div className="card-text">Modern</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
