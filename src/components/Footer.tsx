@@ -6,22 +6,22 @@ const Footer = () => {
 
   const footerLinks = {
     company: [
-      { label: 'Hakkımızda', href: '#hero' },
-      { label: 'Hizmetler', href: '#services' },
-      { label: 'Projeler', href: '#projects' },
-      { label: 'İletişim', href: '#contact' }
+      { label: 'About Us', href: '#hero' },
+      { label: 'Services', href: '#services' },
+      { label: 'Projects', href: '#projects' },
+      { label: 'Contact', href: '#contact' }
     ],
     services: [
-      { label: 'iOS Geliştirme', href: '#services' },
-      { label: 'Android Geliştirme', href: '#services' },
+      { label: 'iOS Development', href: '#services' },
+      { label: 'Android Development', href: '#services' },
       { label: 'Cross-Platform', href: '#services' },
-      { label: 'UI/UX Tasarım', href: '#services' }
+      { label: 'UI/UX Design', href: '#services' }
     ],
     legal: [
-      { label: 'Gizlilik Politikası', href: '#' },
-      { label: 'Kullanım Koşulları', href: '#' },
-      { label: 'KVKK', href: '#' },
-      { label: 'Çerez Politikası', href: '#' }
+      { label: 'Privacy Policy', href: '#' },
+      { label: 'Terms of Use', href: '#' },
+      { label: 'GDPR', href: '#' },
+      { label: 'Cookie Policy', href: '#' }
     ]
   }
 
@@ -35,8 +35,8 @@ const Footer = () => {
               <span className="logo-text">Casifo App</span>
             </div>
             <p className="footer-description">
-              Casifo App, modern ve kullanıcı dostu çözümler sunan yenilikçi bir platform. 
-              Sizin için en iyi deneyimi yaratıyoruz.
+              Casifo App is an innovative platform offering modern and user-friendly solutions. 
+              We create the best experience for you.
             </p>
             <div className="footer-social">
               <a href="#" className="footer-social-link">💼</a>
@@ -47,7 +47,7 @@ const Footer = () => {
           </div>
           
           <div className="footer-column">
-            <h4 className="footer-title">Şirket</h4>
+            <h4 className="footer-title">Company</h4>
             <ul className="footer-links">
               {footerLinks.company.map((link, index) => (
                 <li key={index}>
@@ -58,7 +58,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-column">
-            <h4 className="footer-title">Hizmetler</h4>
+            <h4 className="footer-title">Services</h4>
             <ul className="footer-links">
               {footerLinks.services.map((link, index) => (
                 <li key={index}>
@@ -69,7 +69,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-column">
-            <h4 className="footer-title">Yasal</h4>
+            <h4 className="footer-title">Legal</h4>
             <ul className="footer-links">
               {footerLinks.legal.map((link, index) => (
                 <li key={index}>
@@ -81,7 +81,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; {currentYear} Casifo App. Tüm hakları saklıdır.</p>
+          <p>&copy; {currentYear} Casifo App. All rights reserved.</p>
         </div>
       </div>
     </footer>

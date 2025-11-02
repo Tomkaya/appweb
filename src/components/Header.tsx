@@ -20,11 +20,11 @@ const Header = ({ mobileMenuOpen, setMobileMenuOpen }: HeaderProps) => {
   }, [])
 
   const menuItems = [
-    { label: 'Ana Sayfa', href: '#hero' },
-    { label: 'Özellikler', href: '#features' },
-    { label: 'Hizmetler', href: '#services' },
-    { label: 'Projeler', href: '#projects' },
-    { label: 'İletişim', href: '#contact' },
+    { label: 'Home', href: '#hero' },
+    { label: 'Features', href: '#features' },
+    { label: 'Services', href: '#services' },
+    { label: 'Projects', href: '#projects' },
+    { label: 'Contact', href: '#contact' },
   ]
 
   const handleMenuClick = () => {

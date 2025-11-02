@@ -3,19 +3,19 @@ import './Services.css'
 const Services = () => {
   const services = [
     {
-      title: 'iOS Geliştirme',
-      description: 'Swift ve SwiftUI kullanarak native iOS uygulamaları geliştiriyoruz.',
+      title: 'iOS Development',
+      description: 'We develop native iOS applications using Swift and SwiftUI.',
       features: ['Native iOS Apps', 'SwiftUI', 'App Store Optimization', 'Push Notifications']
     },
     {
-      title: 'Android Geliştirme',
-      description: 'Kotlin ve Jetpack Compose ile modern Android uygulamaları oluşturuyoruz.',
+      title: 'Android Development',
+      description: 'We create modern Android applications with Kotlin and Jetpack Compose.',
       features: ['Native Android', 'Jetpack Compose', 'Material Design', 'Google Play Services']
     },
     {
       title: 'Cross-Platform',
-      description: 'React Native ve Flutter ile çoklu platform uygulamaları geliştiriyoruz.',
-      features: ['React Native', 'Flutter', 'Tek Kod Tabanı', 'Hızlı Geliştirme']
+      description: 'We develop multi-platform applications with React Native and Flutter.',
+      features: ['React Native', 'Flutter', 'Single Codebase', 'Fast Development']
     }
   ]
 
@@ -23,8 +23,8 @@ const Services = () => {
     <section id="services" className="services">
       <div className="container">
         <div className="section-title">
-          <h2>Casifo App Özellikleri</h2>
-          <p>Casifo App ile sunduğumuz profesyonel çözümler</p>
+          <h2>Casifo App Features</h2>
+          <p>Professional solutions we offer with Casifo App</p>
         </div>
         <div className="services-grid">
           {services.map((service, index) => (
@@ -42,7 +42,7 @@ const Services = () => {
                 ))}
               </ul>
               <a href="#contact" className="service-btn">
-                Teklif Alın
+                Get a Quote
               </a>
             </div>
           ))}

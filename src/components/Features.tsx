@@ -4,33 +4,33 @@ const Features = () => {
   const features = [
     {
       icon: '🎨',
-      title: 'Modern Tasarım',
-      description: 'Kullanıcı deneyimini ön planda tutan, estetik ve işlevsel arayüzler tasarlıyoruz.'
+      title: 'Modern Design',
+      description: 'We design aesthetic and functional interfaces that prioritize user experience.'
     },
     {
       icon: '⚡',
-      title: 'Yüksek Performans',
-      description: 'Optimize edilmiş kod yapısı ile hızlı ve akıcı çalışan uygulamalar geliştiriyoruz.'
+      title: 'High Performance',
+      description: 'We develop fast and smooth applications with optimized code structure.'
     },
     {
       icon: '🔒',
-      title: 'Güvenli Altyapı',
-      description: 'En güncel güvenlik standartlarını kullanarak verilerinizi koruma altına alıyoruz.'
+      title: 'Secure Infrastructure',
+      description: 'We protect your data using the latest security standards.'
     },
     {
       icon: '📱',
-      title: 'Responsive Tasarım',
-      description: 'Tüm cihazlarda mükemmel görünüm ve performans sağlayan responsive tasarımlar.'
+      title: 'Responsive Design',
+      description: 'Responsive designs that provide perfect appearance and performance on all devices.'
     },
     {
       icon: '🚀',
-      title: 'Hızlı Teslimat',
-      description: 'Agile metodoloji ile hızlı ve esnek geliştirme süreçleri yürütüyoruz.'
+      title: 'Fast Delivery',
+      description: 'We conduct fast and flexible development processes with Agile methodology.'
     },
     {
       icon: '💬',
-      title: 'Sürekli Destek',
-      description: 'Proje tesliminden sonra da teknik destek ve güncelleme hizmeti sunuyoruz.'
+      title: 'Continuous Support',
+      description: 'We provide technical support and update services even after project delivery.'
     }
   ]
 
@@ -38,8 +38,8 @@ const Features = () => {
     <section id="features" className="features">
       <div className="container">
         <div className="section-title">
-          <h2>Neden Casifo App?</h2>
-          <p>Casifo App'i özel kılan fark yaratan özelliklerimiz</p>
+          <h2>Why Casifo App?</h2>
+          <p>Our distinctive features that make Casifo App special</p>
         </div>
         <div className="features-grid">
           {features.map((feature, index) => (

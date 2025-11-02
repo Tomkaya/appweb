@@ -3,39 +3,39 @@ import './Projects.css'
 const Projects = () => {
   const projects = [
     {
-      title: 'E-Ticaret Uygulaması',
+      title: 'E-Commerce Application',
       category: 'React Native',
-      description: 'Kullanıcı dostu arayüzü ve güvenli ödeme sistemiyle tam özellikli e-ticaret platformu.',
+      description: 'Full-featured e-commerce platform with user-friendly interface and secure payment system.',
       tags: ['React Native', 'TypeScript', 'Redux', 'Payment Integration']
     },
     {
-      title: 'Fitness & Sağlık',
+      title: 'Fitness & Health',
       category: 'iOS',
-      description: 'Kişiselleştirilmiş antrenman programları ve beslenme takibi sunan sağlık uygulaması.',
+      description: 'Health application offering personalized workout programs and nutrition tracking.',
       tags: ['SwiftUI', 'HealthKit', 'CoreData', 'Push Notifications']
     },
     {
-      title: 'Sosyal Medya Platformu',
+      title: 'Social Media Platform',
       category: 'Android',
-      description: 'Gerçek zamanlı mesajlaşma ve içerik paylaşımı özellikleriyle sosyal ağ uygulaması.',
+      description: 'Social network application with real-time messaging and content sharing features.',
       tags: ['Kotlin', 'Jetpack Compose', 'Firebase', 'Real-time']
     },
     {
-      title: 'Finans Yönetimi',
+      title: 'Financial Management',
       category: 'Flutter',
-      description: 'Gelir-gider takibi, bütçe planlama ve yatırım analizi sunan finansal yönetim aracı.',
+      description: 'Financial management tool offering income-expense tracking, budget planning, and investment analysis.',
       tags: ['Flutter', 'Dart', 'Charts', 'Encryption']
     },
     {
-      title: 'Eğitim Platformu',
+      title: 'Education Platform',
       category: 'React Native',
-      description: 'Video dersler, quiz sistemi ve ilerleme takibi ile interaktif öğrenme platformu.',
+      description: 'Interactive learning platform with video lessons, quiz system, and progress tracking.',
       tags: ['React Native', 'Video Streaming', 'Gamification', 'Analytics']
     },
     {
-      title: 'Rezervasyon Sistemi',
+      title: 'Reservation System',
       category: 'iOS & Android',
-      description: 'Restoran, otel ve etkinlik rezervasyonları için kapsamlı rezervasyon yönetim sistemi.',
+      description: 'Comprehensive reservation management system for restaurant, hotel, and event bookings.',
       tags: ['Cross-platform', 'Booking System', 'Maps', 'Notifications']
     }
   ]
@@ -44,8 +44,8 @@ const Projects = () => {
     <section id="projects" className="projects">
       <div className="container">
         <div className="section-title">
-          <h2>Casifo App Projeleri</h2>
-          <p>Casifo App ile gerçekleştirdiğimiz başarılı projeler</p>
+          <h2>Casifo App Projects</h2>
+          <p>Successful projects we have accomplished with Casifo App</p>
         </div>
         <div className="projects-grid">
           {projects.map((project, index) => (

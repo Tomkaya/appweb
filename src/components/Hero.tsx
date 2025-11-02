@@ -7,33 +7,33 @@ const Hero = () => {
         <div className="hero-content">
           <div className="hero-text">
             <h1 className="hero-title">
-              Casifo App ile
-              <span className="gradient-text"> Geleceği Keşfedin</span>
+              Discover the Future
+              <span className="gradient-text"> with Casifo App</span>
             </h1>
             <p className="hero-description">
-              Casifo App, modern ve kullanıcı dostu arayüzüyle size en iyi deneyimi sunuyor. 
-              Yenilikçi çözümlerimizle tanışın.
+              Casifo App provides you with the best experience through its modern and user-friendly interface. 
+              Meet our innovative solutions.
             </p>
             <div className="hero-buttons">
               <a href="#contact" className="btn btn-primary">
-                Hemen Başlayın
+                Get Started
               </a>
               <a href="#projects" className="btn btn-secondary">
-                Projelerimiz
+                Our Projects
               </a>
             </div>
             <div className="hero-stats">
               <div className="stat">
                 <div className="stat-number">50+</div>
-                <div className="stat-label">Tamamlanan Proje</div>
+                <div className="stat-label">Completed Projects</div>
               </div>
               <div className="stat">
                 <div className="stat-number">40+</div>
-                <div className="stat-label">Mutlu Müşteri</div>
+                <div className="stat-label">Happy Clients</div>
               </div>
               <div className="stat">
                 <div className="stat-number">5+</div>
-                <div className="stat-label">Yıllık Deneyim</div>
+                <div className="stat-label">Years of Experience</div>
               </div>
             </div>
           </div>

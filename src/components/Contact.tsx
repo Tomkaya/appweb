@@ -30,24 +30,23 @@ const Contact = () => {
   }
 
   const contactInfo = [
-    { icon: '📧', label: 'E-posta', value: 'info@casifoapp.com' },
-    { icon: '📱', label: 'Telefon', value: '+90 (555) 123 45 67' },
-    { icon: '📍', label: 'Adres', value: 'İstanbul, Türkiye' }
+    { icon: '📧', label: 'Email', value: 'info@casifoapp.com' },
+    { icon: '📱', label: 'Phone', value: '+90 532 333 33 33' },
   ]
 
   return (
     <section id="contact" className="contact">
       <div className="container">
         <div className="section-title">
-          <h2>Casifo App İletişim</h2>
-          <p>Sorularınız için bizimle iletişime geçin, size yardımcı olalım</p>
+          <h2>Contact Casifo App</h2>
+          <p>Get in touch with us for your questions, let us help you</p>
         </div>
         <div className="contact-content">
           <div className="contact-info">
-            <h3>Bizimle İletişime Geçin</h3>
+            <h3>Get In Touch</h3>
             <p className="contact-intro">
-              Casifo App hakkında daha fazla bilgi almak ister misiniz? 
-              Size en kısa sürede dönüş yapalım.
+              Would you like to learn more about Casifo App? 
+              Let us get back to you as soon as possible.
             </p>
             <div className="contact-details">
               {contactInfo.map((info, index) => (
@@ -70,7 +69,7 @@ const Contact = () => {
           <div className="contact-form-wrapper">
             <form className="contact-form" onSubmit={handleSubmit}>
               <div className="form-group">
-                <label htmlFor="name">Adınız Soyadınız</label>
+                <label htmlFor="name">Your Full Name</label>
                 <input
                   type="text"
                   id="name"
@@ -78,11 +77,11 @@ const Contact = () => {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  placeholder="Ad Soyad"
+                  placeholder="Full Name"
                 />
               </div>
               <div className="form-group">
-                <label htmlFor="email">E-posta Adresiniz</label>
+                <label htmlFor="email">Your Email Address</label>
                 <input
                   type="email"
                   id="email"
@@ -90,11 +89,11 @@ const Contact = () => {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  placeholder="ornek@email.com"
+                  placeholder="example@email.com"
                 />
               </div>
               <div className="form-group">
-                <label htmlFor="phone">Telefon Numaranız</label>
+                <label htmlFor="phone">Your Phone Number</label>
                 <input
                   type="tel"
                   id="phone"
@@ -105,7 +104,7 @@ const Contact = () => {
                 />
               </div>
               <div className="form-group">
-                <label htmlFor="message">Mesajınız</label>
+                <label htmlFor="message">Your Message</label>
                 <textarea
                   id="message"
                   name="message"
@@ -113,11 +112,11 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   rows={5}
-                  placeholder="Projeniz hakkında bize bilgi verin..."
+                  placeholder="Tell us about your project..."
                 />
               </div>
               <button type="submit" className="submit-btn">
-                {submitted ? '✓ Gönderildi!' : 'Mesaj Gönder'}
+                {submitted ? '✓ Sent!' : 'Send Message'}
               </button>
             </form>
           </div>
