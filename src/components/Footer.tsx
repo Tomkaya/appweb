@@ -82,7 +82,6 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <p>&copy; {currentYear} Casifo App. Tüm hakları saklıdır.</p>
-          <p>Made with ❤️ in Istanbul</p>
         </div>
       </div>
     </footer>
